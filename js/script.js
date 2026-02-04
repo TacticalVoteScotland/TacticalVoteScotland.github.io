@@ -144,7 +144,8 @@ function getConstituencyName(postcode) {
     .then(res => res.json())
     .then(data => {
       let sortedData = Object.keys(data.areas);
-      let newConstituencyData = data.areas[sortedData[9]];
+      let oldConstituencyData = data.areas[sortedData[9]];
+      let newConstituencyData = data.areas[sortedData[10]];
       console.log(newConstituencyData);
       outcome.style.display = "none";
       if(data.code == 400) {
@@ -154,6 +155,10 @@ function getConstituencyName(postcode) {
         error.innerHTML = "Sorry, looks like that postcode isn't in Scotland."
         error.style.display = "block";
       } else {
+        if (oldConstituencyData != newConstituencyData) {
+          error.innerHTML = "Your constituency has changed since the last Scottish Parliament election in 2021."
+          error.style.display = "block";
+        }
       let constituencyName = newConstituencyData.name;
       let constituencyString = constituencyName.toString();
       printMessageToScreen(constituencyString)
