@@ -153,7 +153,7 @@ function getConstituencyName(postcode) {
       if(data.code == 400) {
         error.innerHTML = "Sorry, looks like that's an invalid postcode."
         error.style.display = "block";
-      } else if(sortedData[7]].country != "S") {
+      } else if(sortedData[7].country != "S") {
         error.innerHTML = "Sorry, looks like that postcode isn't in Scotland."
         error.style.display = "block";
       } else {
