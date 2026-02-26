@@ -109,7 +109,7 @@ form.addEventListener("submit", e => {
   fetch(`https://tacticalvotescotland.uk/js/constituencies.json`)
       .then(res => res.json())
       .then(data => {
-      console.log(data.areas);
+      console.log(data);
       if(constituencyString == undefined) {
         error.style.display = "block";
         error.innerHTML = "Sorry, looks like that's an invalid postcode.";
@@ -145,8 +145,8 @@ function getConstituencyName(postcode) {
     .then(res => res.json())
     .then(data => {
       let sortedData = Object.keys(data.areas);
-      let oldConstituencyData = data.areas[sortedData[9]];
-      let newConstituencyData = data.areas[sortedData[10]];
+      let oldConstituencyData = data.areas[sortedData[3].name];
+      let newConstituencyData = data.areas[sortedData[4].name];
       console.log(newConstituencyData);
       outcome.style.display = "none";
       if(data.code == 400) {
