@@ -1,173 +1,221 @@
 {
-    "Aberdeen North": {
+    "Aberdeen Central": {
       "recommended": "Labour"
     },
-    "Aberdeen South": {
+    "Aberdeen Deeside and North Kincardine": {
       "recommended": "Labour"
     },
-    "Aberdeenshire North and Moray East": {
+    "Aberdeen Donside": {
       "recommended": "Conservative"
     },
-    "Airdrie and Shotts": {
+    "Aberdeenshire East": {
       "recommended": "Labour"
     },
-    "Alloa and Grangemouth": {
+    "Aberdeenshire West": {
       "recommended": "Labour"
     },
-    "Angus and Perthshire Glens": {
+    "Airdrie": {
       "recommended": "Conservative"
     },
-    "Arbroath and Broughty Ferry": {
+    "Almond Valley": {
       "recommended": "Labour"
     },
-    "Argyll, Bute and South Lochaber": {
+    "Angus North and Mearns": {
       "recommended": "Conservative"
     },
-    "Ayr, Carrick and Cumnock": {
+    "Angus South": {
       "recommended": "Labour"
     },
-    "Bathgate and Linlithgow": {
+    "Argyll and Bute": {
       "recommended": "Labour"
     },
-    "Berwickshire, Roxburgh and Selkirk": {
+    "Ayr": {
       "recommended": "Conservative"
     },
-    "Caithness, Sutherland and Easter Ross": {
+    "Banffshire and Buchan Coast": {
       "recommended": "Liberal Democrat"
     },
-    "Central Ayrshire": {
+    "Bathgate": {
       "recommended": "Labour"
     },
-    "Coatbridge and Bellshill": {
+    "Caithness, Sutherland and Ross": {
       "recommended": "Labour"
     },
-    "Cowdenbeath and Kirkcaldy": {
+    "Carrick, Cumnock and Doon Valley": {
       "recommended": "Labour"
     },
-    "Cumbernauld and Kirkintilloch": {
+    "Clackmannanshire and Dunblane": {
       "recommended": "Labour"
     },
-    "Dumfries and Galloway": {
+    "Clydebank and Milngavie": {
       "recommended": "Conservative"
     },
-    "Dumfriesshire, Clydesdale and Tweeddale": {
+    "Clydesdale": {
       "recommended": "Conservative"
     },
-    "Dundee Central": {
+    "Coatbridge and Chryston": {
       "recommended": "Labour"
     },
-    "Dunfermline and Dollar": {
+    "Cowdenbeath": {
       "recommended": "Labour"
     },
-    "East Kilbride and Strathaven": {
+    "Cumbernauld and Kilsyth": {
       "recommended": "Labour"
     },
-    "East Renfrewshire": {
+    "Cunninghame North": {
       "recommended": "Labour"
     },
-    "Edinburgh East and Musselburgh": {
+    "Cunninghame South": {
       "recommended": "Labour"
     },
-    "Edinburgh North and Leith": {
+    "Dumbarton": {
       "recommended": "Labour"
     },
-    "Edinburgh South": {
+    "Dumfriesshire": {
       "recommended": "Labour"
     },
-    "Edinburgh South West": {
+    "Dundee City East": {
       "recommended": "Labour"
     },
-    "Edinburgh West": {
+    "Dundee City West": {
       "recommended": "Liberal Democrat"
     },
-    "Falkirk": {
+    "Dunfermline": {
       "recommended": "Labour"
     },
-    "Glasgow East": {
+    "East Kilbride": {
       "recommended": "Labour"
     },
-    "Glasgow North": {
+    "East Lothian Coast and Lammermuirs": {
       "recommended": "Labour"
     },
-    "Glasgow North East": {
+    "Eastwood": {
       "recommended": "Labour"
     },
-    "Glasgow South": {
+    "Edinburgh Central": {
       "recommended": "Labour"
     },
-    "Glasgow South West": {
+    "Edinburgh Eastern, Musselburgh and Tranent": {
       "recommended": "Labour"
     },
-    "Glasgow West": {
+    "Edinburgh North Eastern and Leith": {
       "recommended": "Labour"
     },
-    "Glenrothes and Mid Fife": {
+    "Edinburgh North Western": {
       "recommended": "Labour"
     },
-    "Gordon and Buchan": {
+    "Edinburgh Northern": {
       "recommended": "Conservative"
     },
-    "Hamilton and Clyde Valley": {
+    "Edinburgh South Western": {
       "recommended": "Labour"
     },
-    "Inverclyde and Renfrewshire West": {
+    "Edinburgh Southern": {
       "recommended": "Labour"
     },
-    "Inverness, Skye and West Ross-shire": {
+    "Ettrick, Roxburgh and Berwickshire": {
       "recommended": "Liberal Democrat"
     },
-    "Kilmarnock and Loudoun": {
+    "Falkirk East and Linlithgow": {
       "recommended": "Labour"
     },
-    "Livingston": {
+    "Falkirk West": {
       "recommended": "Labour"
     },
-    "Lothian East": {
+    "Fife North East": {
       "recommended": "Labour"
     },
-    "Mid Dunbartonshire": {
+    "Galloway and West Dumfries": {
       "recommended": "Liberal Democrat"
     },
-    "Midlothian": {
+    "Glasgow Anniesland": {
       "recommended": "Labour"
     },
-    "Moray West, Nairn and Strathspey": {
+    "Glasgow Baillieston and Shettleston": {
       "recommended": "Conservative"
     },
-    "Motherwell, Wishaw and Carluke": {
+    "Glasgow Cathcart and Pollok": {
+      "recommended": "Labour"
+    },
+    "Glasgow Central": {
+      "recommended": "Labour"
+    },
+    "Glasgow Easterhouse and Springburn": {
+      "recommended": "Labour"
+    },
+    "Glasgow Kelvin and Maryhill": {
+      "recommended": "Liberal Democrat"
+    },
+    "Glasgow Southside": {
+      "recommended": "Liberal Democrat"
+    },
+    "Hamilton, Larkhall and Stonehouse": {
+      "recommended": "Labour"
+    },
+    "Inverclyde": {
+      "recommended": "Labour"
+    },
+    "Inverness and Nairn": {
+      "recommended": "Conservative"
+    },
+    "Kilmarnock and Irvine Valley": {
+      "recommended": "Labour"
+    },
+    "Kirkcaldy": {
+      "recommended": "Labour"
+    },
+    "Mid Fife and Glenrothes": {
+      "recommended": "Conservative"
+    },
+    "Midlothian North": {
+      "recommended": "Labour"
+    },
+    "Midlothian South, Tweeddale and Lauderdale": {
+      "recommended": "Labour"
+    },
+    "Moray": {
+      "recommended": "Labour"
+    },
+    "Motherwell and Wishaw": {
       "recommended": "Labour"
     },
     "Na h-Eileanan an Iar": {
       "recommended": "Labour"
     },
-    "North Ayrshire and Arran": {
+    "Orkney Islands": {
       "recommended": "Labour"
     },
-    "North East Fife": {
-      "recommended": "Liberal Democrat"
-    },
-    "Orkney and Shetland": {
-      "recommended": "Liberal Democrat"
-    },
-    "Paisley and Renfrewshire North": {
+    "Paisley": {
       "recommended": "Labour"
     },
-    "Paisley and Renfrewshire South": {
+    "Perthshire North": {
       "recommended": "Labour"
     },
-    "Perth and Kinross-shire": {
-      "recommended": "Conservative"
-    },
-    "Rutherglen": {
+    "Perthshire South and Kinross-shire": {
       "recommended": "Labour"
     },
-    "Stirling and Strathallan": {
+    "Renfrewshire North and Cardonald": {
       "recommended": "Labour"
     },
-    "West Aberdeenshire and Kincardine": {
-      "recommended": "Conservative"
-    },
-    "West Dunbartonshire": {
+    "Renfrewshire West and Levern Valley": {
       "recommended": "Labour"
-    }
+    },
+    "Rutherglen and Cambuslang": {
+      "recommended": "Labour"
+    },
+    "Shetland Islands": {
+      "recommended": "Labour"
+    },
+    "Skye, Lochaber and Badenoch": {
+      "recommended": "Labour"
+    },
+    "Stirling": {
+      "recommended": "Labour"
+    },
+    "Strathkelvin and Bearsden": {
+      "recommended": "Labour"
+    },
+    "Uddingston and Bellshill": {
+      "recommended": "Labour"
+    },
   }
