@@ -145,8 +145,8 @@ function getConstituencyName(postcode) {
     .then(res => res.json())
     .then(data => {
       let sortedData = Object.keys(data.areas);
-      let oldConstituencyData = data.areas[sortedData[3].name];
-      let newConstituencyData = data.areas[sortedData[4].name];
+      let oldConstituencyData = data.areas[sortedData[3]].name;
+      let newConstituencyData = data.areas[sortedData[4]].name;
       console.log(newConstituencyData);
       outcome.style.display = "none";
       if(data.code == 400) {
