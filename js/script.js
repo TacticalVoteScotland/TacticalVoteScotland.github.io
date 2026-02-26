@@ -149,11 +149,12 @@ function getConstituencyName(postcode) {
       let oldConstituencyData = data.areas[sortedData[6]].name;
       let newConstituencyData = data.areas[sortedData[7]].name;
       console.log(newConstituencyData);
+      console.log(data.areas[sortedData[7]].country);
       outcome.style.display = "none";
       if(data.code == 400) {
         error.innerHTML = "Sorry, looks like that's an invalid postcode."
         error.style.display = "block";
-      } else if(sortedData[7].country != "S") {
+      } else if(data.areas[sortedData[7]].country != "S") {
         error.innerHTML = "Sorry, looks like that postcode isn't in Scotland."
         error.style.display = "block";
       } else {
