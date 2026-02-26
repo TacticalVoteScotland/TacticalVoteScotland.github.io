@@ -144,10 +144,10 @@ function getConstituencyName(postcode) {
   fetch(`https://mapit.mysociety.org/postcode/${postcode}?api_key=ymM4j2aeGa1sPXpv4c8ypaS2YaSRB2ZvpKGptsUt`)
     .then(res => res.json())
     .then(data => {
+      console.log(data);
       let sortedData = Object.keys(data.areas);
       let oldConstituencyData = data.areas[sortedData[3]].name;
       let newConstituencyData = data.areas[sortedData[4]].name;
-      console.log(newConstituencyData);
       outcome.style.display = "none";
       if(data.code == 400) {
         error.innerHTML = "Sorry, looks like that's an invalid postcode."
