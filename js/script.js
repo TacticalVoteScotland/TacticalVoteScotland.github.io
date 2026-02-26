@@ -109,7 +109,7 @@ form.addEventListener("submit", e => {
   fetch(`https://tacticalvotescotland.uk/js/constituencies.json`)
       .then(res => res.json())
       .then(data => {
-      console.log(data);
+      console.log(data.areas);
       if(constituencyString == undefined) {
         error.style.display = "block";
         error.innerHTML = "Sorry, looks like that's an invalid postcode.";
