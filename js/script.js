@@ -163,7 +163,7 @@ function getConstituencyName(postcode) {
           error.style.display = "block";
         }
       let constituencyName = newConstituencyData.name;
-      let constituencyString = newConstituencyName.toString();
+      let constituencyString = constituencyName.toString();
       printMessageToScreen(constituencyString)
       }
     }
