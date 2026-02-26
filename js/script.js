@@ -162,7 +162,7 @@ function getConstituencyName(postcode) {
           error.innerHTML = "Your constituency may have changed since the last Scottish Parliament election in 2021."
           error.style.display = "block";
         }
-      let constituencyName = newConstituencyData.name;
+      let constituencyName = newConstituencyData;
       let constituencyString = constituencyName.toString();
       printMessageToScreen(constituencyString)
       }
