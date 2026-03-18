@@ -236,13 +236,7 @@ a {
   margin-bottom: 3%;
   font-weight: 700;
   vertical-align: middle;
-  text-align: left;
   font-family: "loos-extrawide",sans-serif;
-}
-
-#infoBox h2 {
-  padding-left: 50px;
-  padding-bottom: 50px;
 }
 
 #voteIcon {
