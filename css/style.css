@@ -322,7 +322,8 @@ a {
 }
 
 #constituency, #region {
-  background: multiply rgba(0,0,0,0.1);
+  background: rgba(0,0,0,0.1);
+  background-blend-mode: multiply;
 }
 
 #graphicText, #listBox {
