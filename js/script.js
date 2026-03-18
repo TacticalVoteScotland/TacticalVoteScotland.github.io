@@ -66,7 +66,7 @@ function generateGraphic() {
 
   html2canvas(document.querySelector("#infoBox"), {
 
-    windowWidth: 1440,
+    windowWidth: 1350,
     width: infoBox.width,
     windowHeight: 1080,
     height: infoBox.height,
