@@ -33,6 +33,21 @@ body {
   transition: background-color 300ms linear;
 }
 
+
+  #constituencyBox {
+    background-color: #E0CFE0;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
+  }
+
+  #listBox {
+    background-color: #F5DEC4;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
+  }
+
+  #graphicText, #graphicSubtext {
+    color: #222222;
+  }
+
 @media only screen and (min-width: 1200px) {
   body {
   }
@@ -73,20 +88,6 @@ body {
 
   #graphicButton {
     font-size: 1.5em;
-  }
-
-  #constituencyBox {
-    background-color: #E0CFE0;
-    box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
-  }
-
-  #listBox {
-    background-color: #F5DEC4;
-    box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
-  }
-
-  #graphicText, #graphicSubtext {
-    color: #222222;
   }
 
   #splash h1 { font-family: "loos-extrawide",sans-serif; font-weight: 700; font-size: 6em; line-height: 1;}
