@@ -50,7 +50,7 @@ body {
     object-position: center;
   }
 
-  #graphicText, .graphicSubtext {
+  #graphicText, #listBox {
     color: #222222;
   }
 
