@@ -82,7 +82,7 @@ body {
   #splash h1 { font-family: "loos-extrawide",sans-serif; font-weight: 700; font-size: 6em; line-height: 1;}
 
   h1 { font-family: "loos-condensed",sans-serif; font-weight: 700; font-size: 3.5em; line-height: 1; color: #ffffff;}
-  h2 { font-family: "loos-condensed",sans-serif; font-weight: 400; font-style: normal; font-size: 2em; line-height: 1.2; color: #ffffff;}
+  h2 { font-family: "loos-condensed",sans-serif; font-weight: 400; font-style: normal; font-size: 2em; line-height: 1.2;}
 }
 
 @media only screen and (max-width: 1199px) {
@@ -127,7 +127,7 @@ body {
   #splash h1 { font-family: "loos-extrawide",sans-serif; font-weight: 700; font-size: 8em; line-height: 1;}
 
   h1 { font-family: "loos-condensed",sans-serif; font-weight: 700; font-size: 6em; line-height: 1; color: #ffffff;}
-  h2 { font-family: "loos-condensed",sans-serif; font-weight: 400; font-style: normal; font-size: 4em; line-height: 1.2; color: #ffffff;}
+  h2 { font-family: "loos-condensed",sans-serif; font-weight: 400; font-style: normal; font-size: 3em; line-height: 1.2;}
 }
 
 #leftbox {
