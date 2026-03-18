@@ -316,12 +316,15 @@ a {
   background-color: #E0CFE0;
   box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
   border-radius: 10px;
+  text-align: center;
 }
 
 #listBox {
   background-color: #F5DEC4;
   box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
   border-radius: 10px;
+  padding: 20px;
+  text-align: center;
 }
 
 #graphicText, #listBox {
