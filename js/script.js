@@ -105,7 +105,7 @@ form.addEventListener("submit", e => {
   let formData = new FormData(form)
   let postcode = formData.get("postcode")
 
-  function printMessageToScreen(constituencyString){
+  function printMessageToScreen(constituencyString, regionString){
   fetch(`https://tacticalvotescotland.uk/js/constituencies.json`)
       .then(res => res.json())
       .then(data => {
@@ -117,6 +117,7 @@ form.addEventListener("submit", e => {
         loading.style.display = "block";
         error.style.display = "none";
         constituency.innerHTML = constituencyString;
+        region.innerHTML = regionString;
         recommendation.innerHTML = data[constituencyString].recommended;
         switch(data[constituencyString].recommended) {
           case "Labour":
@@ -148,6 +149,7 @@ function getConstituencyName(postcode) {
       let sortedData = Object.keys(data.areas);
       let oldConstituencyData = data.areas[sortedData[6]].name;
       let newConstituencyData = data.areas[sortedData[7]].name;
+      let region = data.areas[sortedData[8]].name;
       console.log(newConstituencyData);
       console.log(data.areas[sortedData[7]].country);
       outcome.style.display = "none";
@@ -164,7 +166,8 @@ function getConstituencyName(postcode) {
         }
       let constituencyName = newConstituencyData;
       let constituencyString = constituencyName.toString();
-      printMessageToScreen(constituencyString)
+      let regionString = region.toString();
+      printMessageToScreen(constituencyString, regionString)
       }
     }
     )
