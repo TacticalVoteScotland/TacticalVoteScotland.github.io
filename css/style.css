@@ -321,6 +321,10 @@ a {
   text-align: center;
 }
 
+#constituency, #region {
+  background: multiply rgba(0,0,0,0.1);
+}
+
 #graphicText, #listBox {
   color: #222222;
 }
