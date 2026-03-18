@@ -322,8 +322,6 @@ a {
 }
 
 #constituency, #region {
-  background: rgba(0,0,0,0.1);
-  background-blend-mode: multiply;
   font-weight: bolder;
 }
 
