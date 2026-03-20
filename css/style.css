@@ -331,8 +331,9 @@ a {
 }
 
 .ballotLabel {
-  font-size: 1em;
+  font-size: 1.5em;
   text-transform: capitalize;
   letter-spacing: 0.1em;
   opacity: 0.5;
+  font-weight: bolder;
 }
